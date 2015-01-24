@@ -1,7 +1,7 @@
 def game():
     print "You've just entered the Argument Room!"
     print "Do you take stone, paper or scissors?"
-    answer = raw_input("Type stone, paper or scissors and hit 'Enter'.").lower()
+    answer = raw_input("Type stone, paper or scissors and hit 'Enter': ").lower()
 
     if answer == "stone" or answer == "paper" or answer == "scissors":
         import random
